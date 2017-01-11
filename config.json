@@ -6,5 +6,8 @@
   ],
   "fonts": [
     "Raleway:400"
+  ],
+  "icons": [
+    "images/avatar.jpg"
   ]
 }
