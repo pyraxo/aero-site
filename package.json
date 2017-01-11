@@ -19,7 +19,6 @@
   "homepage": "https://github.com/pyraxo/pyraxo.moe#readme",
   "dependencies": {
     "aero": "*",
-    "aero-ajax": "*",
     "aero-reset": "*"
   }
 }
