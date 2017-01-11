@@ -1,0 +1,14 @@
+{
+	"apps" : [
+		{
+			"name": "site",
+			"script": "index.js",
+			"exec_mode": "cluster",
+			"instances": "max",
+			"node_args": "--use_strict --expose-gc",
+			"env": {
+				"NODE_ENV": "production"
+			}
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "pyraxo.moe",
+  "version": "1.0.0",
+  "description": "pyraxo's site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests wewlad\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyraxo/pyraxo.moe.git"
+  },
+  "author": "pyraxo <pyraxo@tfwno.gf> (https://pyraxo.moe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyraxo/pyraxo.moe/issues"
+  },
+  "homepage": "https://github.com/pyraxo/pyraxo.moe#readme",
+  "dependencies": {
+    "aero": "*",
+    "aero-ajax": "*",
+    "aero-reset": "*"
+  }
+}
