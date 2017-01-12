@@ -12,5 +12,14 @@
   ],
   "styles": [
     "fade"
-  ]
+  ],
+  "languages": [
+    "en"
+  ],
+  "scripts": [
+    "anime.min"
+  ],
+  "manifest": {},
+  "redirect": {},
+  "headers": {}
 }
