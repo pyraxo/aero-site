@@ -1,0 +1,49 @@
+
+#buttons
+  -
+    var social = {
+      'mail': {
+        title: 'Email',
+        href: 'mailto:pyraxo@pyraxo.moe?Subject=Hello!',
+        class: 'fa fa-envelope fa-fw'
+      },
+      'twitter': {
+        title: 'Twitter',
+        href: 'https://twitter.com/pyraxo',
+        class: 'fa fa-twitter fa-fw'
+      },
+      'steam': {
+        title: 'Steam',
+        href: 'https://steamcommunity.com/id/pyraxo',
+        class: 'fa fa-steam fa-fw'
+      },
+      'lastfm': {
+        title: 'Lastfm',
+        href: 'https://www.last.fm/user/Pyraxo',
+        class: 'fa fa-lastfm fa-fw'
+      },
+      'retrospring': {
+        title: 'Retrospring',
+        href: 'https://retrospring.net/Arion',
+        class: 'fa fa-comments fa-fw'
+      },
+      'telegram': {
+        title: 'Telegram',
+        href: 'https://web.telegram.org/#/im?p=@pyraxo',
+        class: 'fa fa-paper-plane fa-fw'
+      },
+      'github': {
+        title: 'Github',
+        href: 'https://github.com/Pyraxo',
+        class: 'fa fa-github fa-fw'
+      },
+      'hummingbird': {
+        title: 'Hummingbird',
+        href: 'https://hummingbird.me/users/Pyraxo',
+        class: 'fa fa-fw'
+      }
+    }
+  each btn in social
+    a(href=btn.href target="_blank" title=btn.title id=btn.title)
+      i(class=btn.class)
+  br
