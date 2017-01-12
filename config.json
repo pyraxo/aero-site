@@ -2,12 +2,15 @@
   "title": "Æ",
   "domain": "pyraxo.moe",
   "static": [
-    "images"
+    "assets"
   ],
   "fonts": [
-    "Raleway:400"
+    "Raleway"
   ],
   "icons": [
-    "images/avatar.jpg"
+    "assets/img/avatar.jpg"
+  ],
+  "styles": [
+    "fade"
   ]
 }

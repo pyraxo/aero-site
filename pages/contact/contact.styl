@@ -1,0 +1,110 @@
+.arrowback
+  position absolute
+  left 1vw
+  top 1vh
+  height 40px
+  width 40px
+  font-size 20px
+  display flex
+  justify-content center
+  align-items center
+  font-family serif
+  text-decoration none
+  color #f0f0f0
+  background #297bca
+  border-radius 100%
+  transition 0.2s
+
+.arrowback:hover
+  opacity 0.7
+
+#model
+  display flex
+  justify-content center
+  align-items center
+  flex-direction row
+
+.avatar
+  z-index -1
+
+.avatar a img
+  height 22vw
+  width 22vw
+  border-radius 100%
+  box-sizing border-box
+  border 0.2vw solid #cfd8dc
+  transition 0.2s
+  animation appear 0.4s 0.5s ease-in-out
+  animation-fill-mode backwards
+
+.avatar a img:hover
+  opacity 0.8
+
+.infobox
+  height 12vw
+  width 38vw
+  background rgba(0,0,0,0.5)
+  border-radius 2vw
+
+.title
+  padding-top 2vw
+  padding-bottom 2vw
+  text-align center
+  margin-right 3vw
+
+.title h1
+  font-size 2vw
+  font-family Raleway, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-weight 100
+
+.title span
+  margin-left 1vw
+
+.buttons
+  padding-left 2vw
+  font-size 2vw
+  display flex
+  flex-direction row
+  justify-content space-around
+  align-items stretch
+  align-content space-around
+
+.buttons a
+  height 3.1vw
+  width 3.1vw
+  background #f0f0f0
+  border-radius 25%
+  display flex
+  justify-content center
+  align-items center
+  text-decoration none
+  transition 0.2s
+
+.buttons a:hover
+  opacity 0.6
+
+.buttons a i
+  transition 0.2s
+  height 2vw
+  width 2vw
+
+#Email
+#Steam
+  color #222
+
+#Twitter
+  color #00aced
+
+#Lastfm
+  color #dc001b
+
+#Telegram
+  color #2699db
+
+#Github
+  color #262626
+
+#Kitsu
+  background-image url('/assets/img/kitsu.png')
+  background-repeat no-repeat
+  background-size contain
