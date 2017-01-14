@@ -16,9 +16,7 @@
   "languages": [
     "en"
   ],
-  "scripts": [
-    "anime.min"
-  ],
+  "scripts": [],
   "manifest": {},
   "redirect": {},
   "headers": {}
