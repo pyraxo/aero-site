@@ -21,6 +21,7 @@
     "aero": "^2.0.9",
     "aero-ajax": "^1.0.1",
     "aero-font-awesome": "^4.7.0",
-    "aero-reset": "*"
+    "aero-reset": "*",
+    "uws": "^8.14.1"
   }
 }
